@@ -1,0 +1,18 @@
+{
+  "full-name": "Connor Alcock",
+  "description": "He is awesome!",
+  "favorites": [
+    {
+    "color": "blue",
+    "number": 7,
+    "animal": "doggos",
+    "birthplace": "Winchester, VA"
+    }
+  ],
+  "contact": [
+    {
+      "phone": "(301)-275-3030",
+      "email": "connor.alcock.87@gmail.com"
+    }
+  ]
+}
