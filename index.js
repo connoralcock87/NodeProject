@@ -14,9 +14,9 @@ server.get('/contact', function (request, response) {
   response.send(name.contact);
 });
 
-server.get('*', function (request, error) {
+server.get('*', function (request, response) {
   response.status(400)
   response.send("Invalid");
 });
 
-server.listen(3000);
+server.listen(process.env.PORT || 5000)
